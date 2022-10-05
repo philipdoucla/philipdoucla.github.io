@@ -1,0 +1,13 @@
+h1 {
+    color: goldenrod;
+    font-family: helvetica;
+}
+
+body {
+    background-color: teal;
+}
+
+img {
+    border: 5px solid teal;
+    margin-left: 100px;
+}
