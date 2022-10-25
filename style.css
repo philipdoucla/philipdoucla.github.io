@@ -10,6 +10,15 @@ body {
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
+header {
+    background-color: #FFC72C;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: #FFC72C;
+}
 @import url('https://css.gg/mail.css');
  .gg-mail,
  .gg-mail::after {
