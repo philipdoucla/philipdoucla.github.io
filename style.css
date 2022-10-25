@@ -7,17 +7,20 @@ html {
 
 body {
     background-color: whitesmoke;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -ms-overflow-style: -ms-autohiding-scrollbar !important;
+    margin: 0 !important;
+
 }
 
 header {
-    background-color:#FFD100;
+    background-color:#ffd100;
 }
 
 footer {
     width: 100%;
     height: 20%;
-    background-color: #FFD100;
+    margin-left: 18%;
+    background-color: #ffd100;
 }
 @import url('https://css.gg/mail.css');
  .gg-mail,
@@ -64,11 +67,11 @@ footer {
 .sidebar {
     top: 0;
     left: 0;
-    position: fixed;
+    position: sticky;
     width: 18%;
     height: 100vh;
     z-index: 1;
-    background-color: #0B3D91;
+    background-color: #0b3d91;
     overflow-x: hidden;
     padding: 0 0;
     display: grid;
@@ -89,7 +92,7 @@ footer {
     list-style: none;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    color: #b1113fe3;
+    color: #ffffff;
     text-decoration: none; 
 }
 
@@ -100,7 +103,7 @@ footer {
 }
 
 .sidebar nav a:hover {
-    color:#f57373;
+    color:#ffd100;
 }
 
 .main {
@@ -131,13 +134,13 @@ p {
 }
 
 a:link,a:visited {
-    color: #b1113fe3;
+    color: #c62d1f;
     font-family: inherit;
     text-decoration: none;
 }
 
 a:hover,a:active {
-    color: #f57373;
+    color: #ffd100;
     font-family: inherit;
     text-decoration: none;
 }
@@ -149,7 +152,7 @@ a:hover,a:active {
     width: 100%;
     position: absolute;
     overflow: hidden;
-    background-color: #0B3D91;
+    background-color: #0b3d91;
 }
 
 .topbar #dropdown_links{
@@ -157,7 +160,7 @@ a:hover,a:active {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #0B3D91;
+    background-color: #0b3d91;
     padding-right: 18%;
     text-align: left;
 }
@@ -172,7 +175,7 @@ a:hover,a:active {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     font-weight: bold;
-    color: #b1113fe3;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -180,7 +183,7 @@ a:hover,a:active {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid 0.8px #f57373;
+    border-bottom: solid 0.8px #ffd100;
     display:inline-block;
     padding-top: 0.8em;
     padding-bottom: 0.5em;
@@ -189,7 +192,7 @@ a:hover,a:active {
 }
 
 .topbar a:hover {
-    color: #f57373;
+    color: #ffd100;
 }
 
 .topbar a.icon {
