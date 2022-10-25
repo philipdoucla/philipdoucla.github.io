@@ -1,25 +1,72 @@
 <!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Philip Do</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<html>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script>function myFunction() {
+      var x = document.getElementById("dropdown_links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 
-<head>
+  <body>
+    <!-- Side Navigation -->
+    <aside class="sidebar">
+      <nav class="nav">
+        <ul>
+            <li><a href="internships.html">Internships</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="personal.html">Personal</a></li>
+        </ul>
+    </nav>
+    </aside>
 
-<link rel="stylesheet" href="style.css">
+    <!-- Drop Down Menu for Mobile -->
+    <div class="topbar">
+      <div class="icon" onclick="myFunction()">
+        <ion-icon name="menu" size="large"></ion-icon>
+      </div>
+      <nav class="nav" id="dropdown_links">
+        <ul>
+          <li><a href="index.html">ABOUT</a></li>
+          <li><a href="selected_writing.html">WRITING</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+        </ul>
+      </nav>
+    </div>
 
-</head>
-
-<body>
-
-<h1>Philip's Website</h1>
-
-<p>Welcome to my webpage!</p>
-
-<p>I worked on <a href="https://esuc.github.io/ewd-2022/">this</a></p>
-
-<p>I love <strong>space</strong> and <em>stars</em>!</p>
-
-<img src="img/nasajpl.jpg" width="500" alt="Philip in front of the NASA JPL sign">
+    <!-- Main -->
+    <div class="main">
+      <h1>PHiLiP DO</h1>
+            <img src="img/nasajpl.jpg" width="500" alt="Philip in front of the NASA JPL sign">
+          <p>
+            Hey there! I'm Philip, a university student, software engineer, and space enthusiast from Southern California.
+            <br><br>
+            I currently study Computer Science and Engineering (CSE) at UCLA where I am the Avionics Software Lead for <a href="http://rocketproject.seas.ucla.edu/">Rocket Project</a> and Webmaster for the <a href="http://www.esuc.ucla.edu/">Engineering Society at UCLA</a>.
+            <br><br>
+            <a href="mailto: philipminhdo@ucla.edu">
+              <ion-icon name="mail"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/philipthecar/">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://github.com/philipdoucla">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/philip-do-624b78189/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </p>
+    </div>
 
 </body>
-
 </html>
