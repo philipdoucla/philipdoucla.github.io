@@ -22,6 +22,12 @@ footer {
     background-color: #ffd100;
 }
 
+.project {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 420;
+}
+
 @import url('https://css.gg/mail.css');
  .gg-mail,
  .gg-mail::after {
