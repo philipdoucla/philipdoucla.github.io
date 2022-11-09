@@ -606,7 +606,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #555555;
+  color: #061f4a;
 }
 
 .about .content ul {
@@ -645,7 +645,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #061f4a;
 }
 
 .skills .progress .skill .val {
@@ -771,7 +771,7 @@ section {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #222222;
+  color: #061f4a;
 }
 
 .resume .resume-item {
@@ -870,7 +870,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #222222;
+  color: #061f4a;
   transition: ease-in-out 0.3s;
 }
 
@@ -974,7 +974,7 @@ section {
   font-weight: 500;
   line-height: 1;
   text-transform: uppercase;
-  color: #444444;
+  color: #061f4a;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
@@ -1167,14 +1167,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #222222;
+  color: #061f4a;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #555555;
+  color: #061f4a;
 }
 
 .contact .info .email,
