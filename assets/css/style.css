@@ -13,6 +13,10 @@ body {
   color: #061f4a;
 }
 
+h2 {
+  color: #046b99;
+}
+
 a {
   color: #00a6d2;
   text-decoration: none;
@@ -488,7 +492,8 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: #dce4ef;
+    opacity: 0.85;
     position: absolute;
     bottom: 0;
     top: 0;
@@ -499,11 +504,13 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    text-align: center;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
 }
 
