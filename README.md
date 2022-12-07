@@ -1,2 +1,2 @@
 # philipdoucla.github.io
-Personal Website
+Personal Website and Portfolio
