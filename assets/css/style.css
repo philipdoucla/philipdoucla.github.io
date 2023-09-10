@@ -1280,6 +1280,10 @@ section {
   background: #046b99;
 }
 
+.contact .contact-form button[disabled] {
+  background: #046b99;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);

@@ -27,10 +27,17 @@
               this.contact_number.value = Math.random() * 100000 | 0;
               // these IDs from the previous steps
               emailjs.sendForm('service_7cnc7ca', 'template_piguwtd', this)
-                  .then(function() {
-                      console.log('SUCCESS!');
-                  }, function(error) {
-                      console.log('FAILED...', error);
+              .then(function(response) {
+                  console.log('Email sent successfully', response);
+
+                  // Change button text to "Sent"
+                  let submitButton = document.querySelector('#contact-form button[type="submit"]');
+                  submitButton.textContent = 'Delivered';
+
+                  // Disable the button to prevent further submissions:
+                  submitButton.disabled = true;
+              }, function(error) {
+                  console.log('Failed to send the email', error);
                   });
           });
       }
